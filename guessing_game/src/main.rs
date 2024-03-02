@@ -27,7 +27,7 @@ fn main() {
             Ordering::Less => println!("Слишком маленькое!"),
             Ordering::Greater => println!("Слишком большое!"),
             Ordering::Equal => {
-                println!("Ооо, да, ты выйгра!");
+                println!("Ооо, да, ты выйграл!");
                 break;
             }
         }
